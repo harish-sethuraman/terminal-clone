@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { BrowserRouter as Router } from 'react-router-dom';
-import ThemeContext, { themes, GlobalStyle } from 'Components/themecontext';
-import App from './Components/App'
+import { themes, GlobalStyle } from 'Components/themecontext';
+import App from 'Components/App';
 
 const Iterm = () => (
   <Router>

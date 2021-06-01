@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import styled from "styled-components";
 import { currentNode, executeCommand } from "./Helpers";
-import { useHotkeys, useIsHotkeyPressed } from "react-hotkeys-hook";
+import { useHotkeys } from "react-hotkeys-hook";
 import CascadiaCode from "./CascadiaCode.woff2";
 
 const AppWrapper = styled.div`
